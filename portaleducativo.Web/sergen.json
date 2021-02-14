@@ -1,0 +1,59 @@
+{
+  "RootNamespace": "portaleducativo",
+  "ServerTypings": {
+    "LocalTexts": true
+  },
+  "Connections": [
+    {
+      "Key": "Default",
+      "Tables": [
+        {
+          "Tablename": "dbo.Alumno",
+          "Identifier": "Alumno",
+          "Module": "PortalEducativo",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Alumno_Curso",
+          "Identifier": "AlumnoCurso",
+          "Module": "PortalEducativo",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Aula",
+          "Identifier": "Aula",
+          "Module": "PortalEducativo",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Centro_Educativo",
+          "Identifier": "CentroEducativo",
+          "Module": "PortalEducativo",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Curso",
+          "Identifier": "Curso",
+          "Module": "PortalEducativo",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Docente",
+          "Identifier": "Docente",
+          "Module": "PortalEducativo",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Tarea",
+          "Identifier": "Tarea",
+          "Module": "PortalEducativo",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    }
+  ],
+  "UpgradeInfo": {
+    "InitialType": "Community",
+    "InitialVersion": "5.0.24.0"
+  }
+}
