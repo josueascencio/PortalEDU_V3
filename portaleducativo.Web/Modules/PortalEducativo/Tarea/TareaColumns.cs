@@ -19,8 +19,8 @@ namespace portaleducativo.PortalEducativo.Columns
         public String Descripcion { get; set; }
         public DateTime FechaCreacion { get; set; }
         public DateTime FechaFinalizacion { get; set; }
-        public byte[] DocumentoMaestro { get; set; }
-        public byte[] DocumentoAlumno { get; set; }
+        public byte[] SubirDocumentoMaestro { get; set; }
+        public byte[] SubirDocumentoAlumno { get; set; }
         public Int32 Puntuacion { get; set; }
         public String Comentario { get; set; }
         public String IdAlumnoTareaCarnet { get; set; }

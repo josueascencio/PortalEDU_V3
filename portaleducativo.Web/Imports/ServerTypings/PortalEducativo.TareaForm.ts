@@ -4,8 +4,8 @@
         Descripcion: Serenity.StringEditor;
         FechaCreacion: Serenity.DateEditor;
         FechaFinalizacion: Serenity.DateEditor;
-        DocumentoMaestro: Serenity.StringEditor;
-        DocumentoAlumno: Serenity.StringEditor;
+        SubirDocumentoMaestro: Serenity.StringEditor;
+        SubirDocumentoAlumno: Serenity.StringEditor;
         Puntuacion: Serenity.IntegerEditor;
         Comentario: Serenity.StringEditor;
         IdAlumnoTarea: Serenity.IntegerEditor;
@@ -31,8 +31,8 @@
                     'Descripcion', w0,
                     'FechaCreacion', w1,
                     'FechaFinalizacion', w1,
-                    'DocumentoMaestro', w0,
-                    'DocumentoAlumno', w0,
+                    'SubirDocumentoMaestro', w0,
+                    'SubirDocumentoAlumno', w0,
                     'Puntuacion', w2,
                     'Comentario', w0,
                     'IdAlumnoTarea', w2

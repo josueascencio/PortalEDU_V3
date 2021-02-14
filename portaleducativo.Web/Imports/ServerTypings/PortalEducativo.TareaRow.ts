@@ -5,8 +5,8 @@
         Descripcion?: string;
         FechaCreacion?: string;
         FechaFinalizacion?: string;
-        DocumentoMaestro?: number[];
-        DocumentoAlumno?: number[];
+        SubirDocumentoMaestro?: number[];
+        SubirDocumentoAlumno?: number[];
         Puntuacion?: number;
         Comentario?: string;
         IdAlumnoTarea?: number;
@@ -36,8 +36,8 @@
             Descripcion = "Descripcion",
             FechaCreacion = "FechaCreacion",
             FechaFinalizacion = "FechaFinalizacion",
-            DocumentoMaestro = "DocumentoMaestro",
-            DocumentoAlumno = "DocumentoAlumno",
+            SubirDocumentoMaestro = "SubirDocumentoMaestro",
+            SubirDocumentoAlumno = "SubirDocumentoAlumno",
             Puntuacion = "Puntuacion",
             Comentario = "Comentario",
             IdAlumnoTarea = "IdAlumnoTarea",

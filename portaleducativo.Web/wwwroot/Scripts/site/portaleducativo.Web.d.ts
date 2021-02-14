@@ -1121,8 +1121,8 @@ declare namespace portaleducativo.PortalEducativo {
         Descripcion: Serenity.StringEditor;
         FechaCreacion: Serenity.DateEditor;
         FechaFinalizacion: Serenity.DateEditor;
-        DocumentoMaestro: Serenity.StringEditor;
-        DocumentoAlumno: Serenity.StringEditor;
+        SubirDocumentoMaestro: Serenity.StringEditor;
+        SubirDocumentoAlumno: Serenity.StringEditor;
         Puntuacion: Serenity.IntegerEditor;
         Comentario: Serenity.StringEditor;
         IdAlumnoTarea: Serenity.IntegerEditor;
@@ -1140,8 +1140,8 @@ declare namespace portaleducativo.PortalEducativo {
         Descripcion?: string;
         FechaCreacion?: string;
         FechaFinalizacion?: string;
-        DocumentoMaestro?: number[];
-        DocumentoAlumno?: number[];
+        SubirDocumentoMaestro?: number[];
+        SubirDocumentoAlumno?: number[];
         Puntuacion?: number;
         Comentario?: string;
         IdAlumnoTarea?: number;
@@ -1169,8 +1169,8 @@ declare namespace portaleducativo.PortalEducativo {
             Descripcion = "Descripcion",
             FechaCreacion = "FechaCreacion",
             FechaFinalizacion = "FechaFinalizacion",
-            DocumentoMaestro = "DocumentoMaestro",
-            DocumentoAlumno = "DocumentoAlumno",
+            SubirDocumentoMaestro = "SubirDocumentoMaestro",
+            SubirDocumentoAlumno = "SubirDocumentoAlumno",
             Puntuacion = "Puntuacion",
             Comentario = "Comentario",
             IdAlumnoTarea = "IdAlumnoTarea",

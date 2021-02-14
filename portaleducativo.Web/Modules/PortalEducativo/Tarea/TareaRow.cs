@@ -49,18 +49,18 @@ namespace portaleducativo.PortalEducativo.Entities
             set => fields.FechaFinalizacion[this] = value;
         }
 
-        [DisplayName("Documento Maestro"), Column("Documento_Maestro"), Size(50)]
-        public byte[] DocumentoMaestro
+        [DisplayName("Subir Documento Maestro"), Column("Subir_Documento_Maestro"), Size(50)]
+        public byte[] SubirDocumentoMaestro
         {
-            get => fields.DocumentoMaestro[this];
-            set => fields.DocumentoMaestro[this] = value;
+            get => fields.SubirDocumentoMaestro[this];
+            set => fields.SubirDocumentoMaestro[this] = value;
         }
 
-        [DisplayName("Documento Alumno"), Column("Documento_Alumno"), Size(50)]
-        public byte[] DocumentoAlumno
+        [DisplayName("Subir Documento Alumno"), Column("Subir_Documento_Alumno"), Size(50)]
+        public byte[] SubirDocumentoAlumno
         {
-            get => fields.DocumentoAlumno[this];
-            set => fields.DocumentoAlumno[this] = value;
+            get => fields.SubirDocumentoAlumno[this];
+            set => fields.SubirDocumentoAlumno[this] = value;
         }
 
         [DisplayName("Puntuacion")]
@@ -164,8 +164,8 @@ namespace portaleducativo.PortalEducativo.Entities
             public StringField Descripcion;
             public DateTimeField FechaCreacion;
             public DateTimeField FechaFinalizacion;
-            public ByteArrayField DocumentoMaestro;
-            public ByteArrayField DocumentoAlumno;
+            public ByteArrayField SubirDocumentoMaestro;
+            public ByteArrayField SubirDocumentoAlumno;
             public Int32Field Puntuacion;
             public StringField Comentario;
             public Int32Field IdAlumnoTarea;
